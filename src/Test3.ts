@@ -7,5 +7,5 @@
 // console.log(result)
 
 // let fruits = ['banana', 'apple', 'grapes', 'apple', 'orange'];
-// let result = fruits.indexOf('apple','orange)//cooment out
+// let result = fruits.indexOf('apple','orange)//cooment out new try
 // console.log(result)

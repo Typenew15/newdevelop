@@ -1,17 +1,7 @@
-let fruits = ['banana', 'apple', 'grapes', 'orange'];
-let result = fruits.sort();
-console.log(result)
-
-let nums = [1, 3, 7, 10, 12, 15];
-let result = nums.find(num => num % 2 === 0)
-console.log(result)
-
-console.log("Test the conflicts")
-
-// let fruits = ['banana', 'apple', 'grapes', 'apple', 'orange'];
-// let result = fruits.indexOf('apple','orange)//cooment out new try
-// console.log(result)
-
+const a = 10;
+const b =20;
+const c = a+b;
+console.log(c);
 // @ts-check
 const { test, expect } = require('@playwright/test');
 
@@ -48,7 +38,19 @@ test.beforeEach(async ({page}) => {
             }
           ]
         },
-       
+        {
+          name: 'dir2',
+          children: [
+            {
+              name: 'file4',
+            },
+            {
+              name: 'file5',
+            }
+          ]
+        }
+      ]
+    });
     // Make the picker return mock directory
     window.showDirectoryPicker = async () => mockDir;
   });
@@ -64,19 +66,7 @@ test('should display directory tree', async ({ page }) => {
     'dir2', 'file4', 'file5'
   ]);
 });
-
-
-test.beforeEach(async ({page}) => {
-    await page.addInitScript(() => {
-      class FileSystemFileHandleMock {
-        constructor(file) {
-          this._file = file;
-        }
-  
-        async getFile() {
-          return this._file;
-        }
-      }
-      window.showOpenFilePicker = async () => [new FileSystemFileHandleMock(new File(['Test content.'], "foo.txt"))];
-    });
-  });
+await classname.iselementdisplayer('Title');
+await classname.click('Title');
+await classname.isdisplayed('Title');
+await classname.ischecked('options');

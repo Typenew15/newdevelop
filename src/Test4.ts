@@ -1,2 +1,5 @@
-//will add code in future
-//Testing the merge conflict
+
+const a =10;
+const b = 20;
+const c = a + b;
+console.log(c)

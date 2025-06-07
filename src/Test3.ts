@@ -46,19 +46,7 @@ test.beforeEach(async ({page}) => {
             }
           ]
         },
-        {
-          name: 'dir2',
-          children: [
-            {
-              name: 'file4',
-            },
-            {
-              name: 'file5',
-            }
-          ]
-        }
-      ]
-    });
+       
     // Make the picker return mock directory
     window.showDirectoryPicker = async () => mockDir;
   });

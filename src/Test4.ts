@@ -1,3 +1,8 @@
+//will add code in future
+const a =10;
+const b = 20;
+const c = a * b;
+console.log(c)
 const a = 10;
 const b =20;
 const c = a+b;
@@ -69,3 +74,7 @@ test('should display directory tree', async ({ page }) => {
 // await classname.iselementdisplayer('Title');
 await classname.click('Title');
 
+// await classname.iselementdisplayer('Title');
+// await classname.click('Title');
+// await classname.isdisplayed('Title');
+// await classname.ischecked('options');

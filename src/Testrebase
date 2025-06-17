@@ -1,5 +1,23 @@
 for rebase purpose test
 
+let message: string = "Hello, World!";
+console.log(message);
+
+class ReadonlyExample {
+    readonly name: string;
+  
+    constructor(name: string) {
+      this.name = name;
+    }
+  
+    getName(): string {
+      return this.name;
+    }
+  }
+  
+  const obj = new ReadonlyExample("John");
+  console.log(obj.getName());
+
 abstract class Animal {
   abstract makeSound(): void;
 

@@ -3,4 +3,7 @@ const greet = (name: string): string => {
   };
   
   console.log(greet("Balaji"));
+New typescript programm
+
+console.log("rebasetest")
   

@@ -22,3 +22,6 @@ class Dog1 extends Animal1 {
 const myDog = new Dog1();
 myDog.makeSound();
 myDog.move();
+const myDog = new Dog1();
+myDog.makeSound();
+myDog.move();

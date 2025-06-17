@@ -25,3 +25,22 @@ function sum1(...numbers: number[]): number {
   
   const rect = new Rectangle(5, 10);
   console.log(rect.calculateArea());
+
+
+  interface Shape1 {
+    calculateArea(): number;
+  }
+  
+  class Rectangle1 implements Shape1 {
+    width: number;
+    height: number;
+  
+    constructor(width: number, height: number) {
+      this.width = width;
+      this.height = height;
+    }
+  
+    calculateArea(): number {
+      return this.width * this.height;
+    }
+  }

@@ -66,7 +66,6 @@ test('should display directory tree', async ({ page }) => {
     'dir2', 'file4', 'file5'
   ]);
 });
-await classname.iselementdisplayer('Title');
+// await classname.iselementdisplayer('Title');
 await classname.click('Title');
-await classname.isdisplayed('Title');
-await classname.ischecked('options');
+

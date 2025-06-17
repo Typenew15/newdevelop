@@ -77,6 +77,6 @@ test.beforeEach(async ({page}) => {
           return this._file;
         }
       }
-      window.showOpenFilePicker = async () => [new FileSystemFileHandleMock(new File(['Test content.'], "foo.txt"))];
+    //   window.showOpenFilePicker = async () => [new FileSystemFileHandleMock(new File(['Test content.'], "foo.txt"))];
     });
   });

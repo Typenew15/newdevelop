@@ -20,3 +20,10 @@ const person = new Person("Alice");
 console.log(person.name);
 person.name = "Bob";
 console.log(person.name);
+
+function sum(...numbers: number[]): number {
+  return numbers.reduce((total, num) => total + num, 0);
+}
+
+console.log(sum(1, 2, 3));
+console.log(sum(10, 20));
